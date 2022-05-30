@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PokeDex</title>
+</head>
+
+<body>
+    <div>
+        <div id="hero">
+            <a href="#info">
+                <input class="btn btn-warning" type="button" value="PokeDex">
+            </a>
+        </div>
+        <div id="info">
+            <div id="show-info" class="container">
+                <div class="row">
+                    <div class=" input-group md3 col col-lg-12">
+                        <input id="param" type="text" class="form-control">
+                        <div class="input-group-append">
+                            <input id="btn-search" type="button" class="btn btn-primary" value="Search">
+                        </div>
+                    </div>
+                    <div class="col col-lg-12">
+                        <img id="pinture" src="" style="margin-left: 45%; margin-bottom: 20px; margin-top: 20px;">
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>No.</th>
+                                <td id="id"></td>
+                                <th>Height: </th>
+                                <td id="height"></td>
+                                <th>Weight:</th>
+                                <td id="weight"></td>
+                            </tr>
+                            <tr>
+                                <th>Types</th>
+                                <td id="type1"></td>
+                                <td id="type2"></td>
+                                <th>No. Order</th>
+                                <td id="order" colspan="2"></td>
+                            </tr>
+                        </table>
+                        <table class="table table-bordered">
+                            <tr>
+                                <th colspan="6" align="center">Stats</th>
+                            </tr>
+                            <tr>
+                                <th>HP</th>
+                                <td id="hp"></td>
+                                <th>Attack</th>
+                                <td id="attack"></td>
+                                <th>Defense</th>
+                                <td id="defense"></td>
+                            </tr>
+                            <tr>
+                                <th>Special Attack</th>
+                                <td id="special-attack"></td>
+                                <th>Special Defense</th>
+                                <td id="special-defense"></td>
+                                <th>Speed</th>
+                                <td id="speed"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
